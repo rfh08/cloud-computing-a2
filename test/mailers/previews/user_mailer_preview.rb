@@ -2,7 +2,7 @@
 class UserMailerPreview < ActionMailer::Preview
 
   # Preview this email at http://localhost:3000/rails/mailers/user_mailer/account_activation
-  # https://2a086de4765042b4b4ff9e88fe23a2fb.vfs.cloud9.us-east-2.amazonaws.com/rails/mailers/user_mailer/account_activation
+  # https://2615cb6a71514641b073dc8b043d3737.vfs.cloud9.us-east-2.amazonaws.com//rails/mailers/user_mailer/account_activation
   def account_activation
     user = User.first
     user.activation_token = User.new_token
